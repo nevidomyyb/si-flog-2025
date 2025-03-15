@@ -4,6 +4,17 @@
 
 @import url(./login.css);
 
+:root {
+    --color-primary: #2B3A2E;
+    --color-secondary: #375240;
+    --color-tertiary: #F8F8F8;
+    --color-highlight: #C6A27C;
+
+    --font-primary: "Darker Grotesque", sans-serif;
+    --font-secondary: "Inter", sans-serif;
+    --font-tertiary: "Playfair Display", sans-serif;
+}
+
 * {
     margin: 0;
     box-sizing: inherit;
