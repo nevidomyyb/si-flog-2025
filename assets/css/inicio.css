@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: var(--color-primary);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+header input {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.center-content {
+    margin: 0 auto;
+}
+
+.knowme-title {
+    font-family: var(--font-tertiary);
+}
+
+.add-btn {
+    background: white;
+    color: black;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 50%;
+    font-size: 1.125rem;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 15.625rem;
+    background: var(--color-secondary);
+    color: white;
+    height: 100vh;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    padding: 0.625rem;
+    cursor: pointer;
+}
+
+.sidebar .active {
+    font-weight: bold;
+}
+
+.friend {
+    padding-left: 1.25rem;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    padding: 0.625rem;
+    border-radius: 0.5rem;
+}
+
+.owner {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    padding: 0.625rem;
+    background: #3e4d3e;
+    border-radius: 0.5rem;
+}
+
+.owner img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+.feed {
+    flex: 1;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edit-btn {
+    width: 30px; 
+    height: 30px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0; 
+}
+
+.edit-btn img {
+    width: 50%;
+    height: 50%; 
+}
+
+.post {
+    background: white;
+    width: 25rem;
+    border-radius: 0.625rem;
+    box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin-bottom: 1.25rem;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-header img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-right: 0.625rem;
+}
+
+.post-image {
+    width: 100%;
+    border-radius: 0.625rem;
+    margin-top: 0.625rem;
+}
+
+.caption {
+    margin: 0.625rem 0;
+}
+
+.actions {
+    display: flex;
+    gap: 0.625rem;
+}
+
+.actions button {
+    border: none;
+    background: none;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
