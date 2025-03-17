@@ -121,7 +121,7 @@
 }
 
 .sidebar li {
-  padding: 0.625rem 0;
+  padding: 0.625rem 0.2rem;
   cursor: default;
 }
 
@@ -135,6 +135,13 @@
 
 .home {
     justify-content: center;
+    transition: background-color 0.1s ease-in-out;
+}
+
+
+.home:hover {
+    background-color: var(--color-primary);
+    border-radius: 5px;
 }
 
 .topics a {
@@ -147,6 +154,7 @@
 
     cursor: pointer;
 }
+
 
 .topics span {
     color: inherit;
@@ -167,11 +175,13 @@
 }
 
 .friend {
-    padding: 3rem 0;
+    
 
     display: flex;
     align-items: center;
     gap: 0.5rem;;
+
+    transition: background-color 0.1s ease-in-out;
 }
 
 .friend img {
@@ -190,6 +200,11 @@
     cursor: pointer;
 }
 
+.friend:hover{
+    background-color: var(--color-primary);
+    border-radius: 5px;
+}
+
 .owner {
     padding: 0.5rem 0.8rem;
 
@@ -200,6 +215,8 @@
     border-radius: 8px;
 
     background-color: var(--color-primary);
+
+    transition: background-color 0.1s ease-in-out;
 }
 
 .owner img {
@@ -218,6 +235,10 @@
     cursor: pointer;
 }
 
+
+.owner:hover {
+    background-color: #1d241f;
+}
 
 /* FEED STYLE */
 
