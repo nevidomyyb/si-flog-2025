@@ -265,7 +265,24 @@
     justify-content: space-between;
 }
 
-.post-header img {
+.post-header-profile {
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.post-header-profile a {
+    color: inherit;
+
+    font-family: var(--font-secondary);
+    font-size: 1rem;
+    font-weight: 500;
+
+    text-decoration: none;
+}
+
+.post-header-img-profile {
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 50%;
@@ -274,13 +291,18 @@
 
 .post-image {
     width: 100%;
-    /* border-radius: 0.625rem; */
+    border-radius: 0.625rem;
     margin-top: 0.625rem;
 }
 
 .caption {
     margin: 0.625rem 0;
     padding: 0.5rem 0.2rem;
+
+    color: #000000;
+    font-family: var(--font-caption);
+    font-size: 0.938rem;
+
 }
 
 .actions {
