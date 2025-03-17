@@ -11,6 +11,7 @@
     --color-secondary: #375240;
     --color-tertiary: #F8F8F8;
     --color-highlight: #C6A27C;
+    --color-text-sidebar: #FAF0E6;
 
     --font-primary: "Darker Grotesque", sans-serif;
     --font-secondary: "Inter", sans-serif;
@@ -19,5 +20,7 @@
 
 * {
     margin: 0;
-    box-sizing: inherit;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,65 +7,126 @@
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-    <header>
-        <h1 class="knowme-title">know.me</h1>
-        <h3>Ínicio</h3>
-        <nav>
-            <input type="text" placeholder="Buscar no Flog">
-            <button class="add-btn">+</button>
-        </nav>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="title-content">
+            <h1>know.me</h1>
+        </div>
+
+        <h3 class="page-title">Início</h3>
+
+        <div class="actions-header">
+            <div class="searchbar">
+                <img src="/assets/img/magnifying-glass-solid 1.svg" width="20" height="20" alt="ícone de Lupa">
+                <input type="text" placeholder="Buscar">
+            </div>
+
+            <button class="add-post-button"><img src="/assets/img/plus-solid.svg" alt=""></button>
+        </div>
     </header>
-    
+
+    <!-- SIDEBAR -->
     <div class="container">
         <aside class="sidebar">
-            <ul  class="center-content">
-                <li >
+            <ul>
+                <li class="topics home">
                     <img src="/assets/img/home_icon.svg" alt="ícone de uma casa">
-                    <span>Início</span>
+                    <a href="">Início</a>
                 </li>
-                <li><hr></li>
+
                 <li>
+                    <hr>
+                </li>
+
+                <li class="topics">
                     <img src="/assets/img/friends_icon.svg" alt="ícone de amigos">
                     <span>Amigos</span>
                 </li>
-                <li >
+
+                <li class="friend">
                     <img src="/assets/img/person_1.svg" alt="1° pessoa">
-                    <span>Ana Carolina</span>
+                    <a href="">Pessoa 1</a>
                 </li>
-                <li>
+
+                <li class="friend">
                     <img src="/assets/img/person_2.svg" alt="2° pessoa">
-                    <span>Daniely Vasconcelos</span>
+                    <a href="">Pessoa 2</a>
                 </li>
-                <li>
+
+                <li class="friend">
                     <img src="/assets/img/person_3.svg" alt="3° pessoa">
-                    <span>Estela Luna</span>
+                    <a href="">Pessoa 3</a>
                 </li>
-                <li>
+
+                <li class="friend">
                     <img src="/assets/img/person_4.svg" alt="4° pessoa">
-                    <span>Pedro Cunha</span>
+                    <a href="">Pessoa 4</a>
                 </li>
+
+                <li>
+                    <hr>
+                </li>
+
+                <li class="topics">
+                    <img src="/assets/img/tabelas_icon.svg" alt="">
+                    <span>Tabelas</span>
+                </li>
+
+                <li class="friend">
+                    <a href="">Usuários</a>
+                </li>
+
             </ul>
+
+
             <div class="owner">
                 <img src="/assets/img/person_5.svg" alt="5° pessoa">
-                <span>Dono</span>
+                <a href="">Dono</a>
             </div>
         </aside>
-
-        <main class="feed">
-            <div class="post">
-                <div class="post-header">
-                    <img src="/assets/img/person_5.svg" alt="Avatar">
-                    <span>Leticia</span>
-                    <button class="edit-btn"><img src="/assets/img/edit_icon.svg" alt=""></button>
-                </div>
-                <img class="post-image" src="/assets/img/dog.png" alt="Imagem do post">
-                <p class="caption">The most beautiful dog in the world oh gosh</p>
-                <div class="actions">
-                    <button><img src="/assets/img/like_icon.svg" alt=""></button>
-                    <button><img src="/assets/img/comment_icon.svg" alt=""></button>
-                </div>
-            </div>
-        </main>
     </div>
+
+    <!-- FEED -->
+    <main class="feed">
+
+        <div class="post">
+
+            <div class="post-header">
+                <img src="/assets/img/person_5.svg" alt="Avatar">
+                <span>Leticia</span>
+                <button class="edit-btn"><img src="/assets/img/edit_icon.svg" alt=""></button>
+            </div>
+
+            <img class="post-image" src="/assets/img/dog.png" alt="Imagem do post">
+            <p class="caption">The most beautiful dog in the world oh gosh</p>
+
+            <div class="actions">
+                <button><img src="/assets/img/like_icon.svg" alt=""></button>
+                <button><img src="/assets/img/comment_icon.svg" alt=""></button>
+            </div>
+
+        </div>
+
+        <div class="post">
+
+            <div class="post-header">
+                <img src="/assets/img/person_5.svg" alt="Avatar">
+                <span>Leticia</span>
+                <button class="edit-btn"><img src="/assets/img/pen-to-square-solid.svg" alt=""></button>
+            </div>
+
+            <img class="post-image" src="/assets/img/dog.png" alt="Imagem do post">
+            <p class="caption">The most beautiful dog in the world oh gosh</p>
+
+            <div class="actions">
+                <button><img src="/assets/img/like_icon.svg" alt=""></button>
+                <button><img src="/assets/img/comment_icon.svg" alt=""></button>
+            </div>
+
+        </div>
+
+    </main>
+
 </body>
 </html>
