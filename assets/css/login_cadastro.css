@@ -1,5 +1,5 @@
-.body__login__register {
-    margin: auto;
+.body-login-register {
+    margin: 0 auto;
     min-height: 100vh;
     
     display: flex;
@@ -8,7 +8,7 @@
 
     color: #FFFFFF;
     font-family: var(--font-primary);
-    font-size: 1.1rem;
+    font-size: 0.95rem;
 
     background-color: var(--color-secondary);
 
@@ -17,12 +17,12 @@
 
 /*STYLE LOGIN PAGE*/
 
-.main__login__register {
-    width: 25rem;
-    max-width: 25rem; 
+.main-login-register {
+    width: 90%;
+    max-width: 22rem; 
     
     margin: auto;
-    padding: 3rem 4rem;
+    padding: 2rem 3rem;
 
     border-radius: 5px;
 
@@ -30,85 +30,96 @@
 }
 
 
-.login__logo {
+.login-logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 
-.login__logo h1 {
+.login-logo img {
+    width: 3.5rem; /* Reduz o tamanho do ícone */
+    height: 3.5rem;
+}
+
+
+.login-logo h1 {
     font-family: var(--font-tertiary);
-    font-size: 3rem;
-    font-weight: 500;
+    font-size: 2.5rem;
+    font-weight: 600;
 }
 
 
-.form__login {
+.form-login {
     margin: 5rem 0 6.25rem 0;
 
     display: flex;
     flex-direction: column;
-    gap: 1.25rem;
+    gap: 0.8rem;
 }
 
 
 /* STYLE REGISTER PAGE */
 
-.register__logo {
+.register-logo {
     text-align: center;
     margin-bottom: 2rem;
 
     font-family: var(--font-tertiary);
 }
 
-.register__logo h1 {
+.register-logo h1 {
     margin-bottom: 2rem;
-    font-size: 2.25rem;
+    font-size: 1.2rem;
     font-weight: 600;
+    line-height: 1.3;
 }
 
-.register__logo h1 span {
+.register-logo h1 span {
     color: var(--color-highlight);
-    font-weight: 800;
+    font-weight: 700;
 }
 
+.register-logo img {
+    width: 3rem;
+    height: 3rem;
+}
 
-.form__register {
-    margin-bottom: 5rem;
+.form-register {
+    margin-bottom: 4rem;
     
     display: flex;
     flex-direction: column;
-    gap: 1.25rem;
+    gap: 0.8rem;
 }
 
 
 
 /* STYLES ON THE LOGIN PAGE AND REGISTRATION PAGE */
 
-.login__register__input {
-    padding: 0.8rem;
+.login-register-input {
+    padding: 0.6rem;
 
     font-family: inherit;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
 
     border: none;
     border-radius: 8px;
 }
 
 
-.login__register__input::placeholder {
+.login-register-input::placeholder {
     color: #4B4D50;
 }
 
 
-.login__register__button {
-    padding-top: 0.4rem;
-    padding-bottom: 0.4rem;
+.login-register-button {
+    padding: 0.6rem 0;
+    padding-bottom: 0.6rem;
 
     color: inherit;
-    font-size: inherit;
+    font-size: 0.9rem;
     font-family: inherit;
     font-weight: 600;
 
@@ -121,30 +132,32 @@
 }
 
 
-.login__register__hint {
+.login-register-hint {
     text-align: center;
-    font-weight: 600;
+    font-size: 0.6rem;
+    font-weight: 500;
 }
 
 
-.hint__link {
+.hint-link {
     text-decoration: none;
 
     color: var(--color-highlight);
-    font-weight: 800;
+    font-weight: 700;
 }
 
 
-.footer__login__register {
+.footer-login-register {
     margin-top: auto;
 
     width: 100%;
-    height: 3.5rem;
+    height: 2.5rem;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
+    font-size: 0.5rem;
     font-weight: 600;
 
     background-color: var(--color-primary);
