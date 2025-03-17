@@ -4,6 +4,7 @@
 
 @import url(./login_register.css);
 @import url(./inicio.css);
+@import url(./tabelas.css);
 
 :root {
     --color-primary: #2B3A2E;
