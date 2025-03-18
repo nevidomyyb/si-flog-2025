@@ -39,7 +39,7 @@
 
 
 .login-logo img {
-    width: 3.5rem; /* Reduz o tamanho do ícone */
+    width: 3.5rem; 
     height: 3.5rem;
 }
 
@@ -102,24 +102,25 @@
     padding: 0.6rem;
 
     font-family: inherit;
-    font-size: 0.9rem;
+    font-size: 0.75rem;
 
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 
 .login-register-input::placeholder {
     color: #4B4D50;
+    font-family: var(--font-secundary);
+    font-size: 0.75rem;
 }
 
 
 .login-register-button {
-    padding: 0.6rem 0;
-    padding-bottom: 0.6rem;
+    padding: 0.4rem;
 
     color: inherit;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-family: inherit;
     font-weight: 600;
 
@@ -134,7 +135,7 @@
 
 .login-register-hint {
     text-align: center;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     font-weight: 500;
 }
 
@@ -157,8 +158,8 @@
     justify-content: center;
     align-items: center;
 
-    font-size: 0.5rem;
-    font-weight: 600;
+    font-size: 0.8rem;
+    font-weight: 500;
 
     background-color: var(--color-primary);
 }
