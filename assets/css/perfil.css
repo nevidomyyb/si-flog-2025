@@ -75,3 +75,21 @@
   right: 0.6rem;
   cursor: pointer;
 }
+
+.photos-profile{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  grid-template-rows: repeat(2, auto); 
+  gap: 10px; 
+  justify-content: center;
+  max-width: 800px; 
+  margin: 20px auto; 
+
+}
+
+.photos-profile img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+
+}
