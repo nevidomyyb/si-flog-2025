@@ -1,0 +1,77 @@
+.profile {
+  min-height: calc(100vh - 4rem);
+  padding: 4.7rem;
+  padding-top: 6rem;
+  margin-left: 10rem;
+  
+
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  justify-content: flex-start;
+
+  background: #FFFFFF;
+}
+
+.post-profile {
+  height: 10rem;
+  width: 65.56rem;
+  border-radius: 0.625rem;
+  box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-bottom: 1.25rem;
+  display: flex;
+  gap: 5rem;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post-header1 {
+  padding: 0.5rem 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 27.5rem;
+}
+
+.post-header-profile1 {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.post-header-profile1 a {
+  color: inherit;
+
+  font-family: var(--font-secondary);
+  font-size: 1.5rem;
+  font-weight: 500;
+
+  text-decoration: none;
+}
+
+.post-header-img-profile1 {
+  height: 6rem;
+  width: 6rem;
+}
+
+.table-profile {
+  height: 0.5px;
+  width: 20rem;
+  background-color: #F2F2F2;
+  font-family: var(--font-secondary);
+  font-size: 1.2rem;
+  font-weight: 650;
+ 
+}
+
+.profile-settings {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  cursor: pointer;
+}

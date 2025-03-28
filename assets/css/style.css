@@ -6,6 +6,7 @@
 @import url(./login_cadastro.css);
 @import url(./inicio.css);
 @import url(./tabelas.css);
+@import url(perfil.css);
 
 :root {
     --color-primary: #2B3A2E;
