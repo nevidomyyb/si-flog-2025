@@ -1,0 +1,82 @@
+.feed {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.post {
+    background: #f7f7f7;
+    padding: 15px;
+    border-radius: 10px;
+    width: 500px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.post-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-header span {
+    font-weight: bold; 
+    font-size: 16px; 
+    font-family: sans-serif; 
+}
+
+.post-header .date {
+    margin-left: auto; 
+    font-size: 14px; 
+    font-family: sans-serif; 
+}
+
+.upload-box {
+    text-align: center;
+    padding: 20px;
+    border: 1px dashed #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+}
+
+.upload-btn {
+    background: #c49b75;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+
+.post-title,
+.post-caption {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: sans-serif; 
+}
+
+.post-btn {
+    background: #c49b75;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    color: white;
+    align-self: flex-end;
+    font-family: sans-serif; 
+}
