@@ -80,3 +80,22 @@
     align-self: flex-end;
     font-family: sans-serif; 
 }
+figure {
+    position: relative;
+  }
+
+  figure:before,
+  figure:after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  img {
+    width: 15%;
+    height: 15%;
+    margin: 0;
+    padding: 0;
+  }
