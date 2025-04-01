@@ -7,12 +7,14 @@
 
 .post {
     background: #f7f7f7;
-    padding: 15px;
+    padding: 20px; 
     border-radius: 10px;
     width: 500px;
     box-sizing: border-box;
     border: 1px solid #ddd;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
 }
 
 .post-header {
@@ -29,15 +31,15 @@
 }
 
 .post-header span {
-    font-weight: bold; 
-    font-size: 16px; 
-    font-family: sans-serif; 
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
 }
 
 .post-header .date {
-    margin-left: auto; 
-    font-size: 14px; 
-    font-family: sans-serif; 
+    margin-left: auto;
+    font-size: 14px;
+    font-family: sans-serif;
 }
 
 .upload-box {
@@ -67,7 +69,7 @@
     border: 1px solid #ddd;
     box-sizing: border-box;
     background-color: white;
-    font-family: sans-serif; 
+    font-family: sans-serif;
 }
 
 .post-btn {
@@ -77,25 +79,25 @@
     cursor: pointer;
     border-radius: 20px;
     color: white;
-    align-self: flex-end;
-    font-family: sans-serif; 
+    align-self: flex-end; 
+    margin-top: 10px; 
 }
+
 figure {
     position: relative;
-  }
-
-  figure:before,
-  figure:after {
+}
+figure:before,
+figure:after {
     content: '';
     height: 100%;
     width: 100%;
     top: 0;
     left: 0;
     position: absolute;
-  }
-  img {
+}
+img {
     width: 15%;
     height: 15%;
     margin: 0;
     padding: 0;
-  }
+}
