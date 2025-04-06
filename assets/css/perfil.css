@@ -60,7 +60,7 @@
 }
 
 .table-profile {
-  height: 0.5px;
+  height: 0.3125rem;
   width: 20rem;
   background-color: #F2F2F2;
   font-family: var(--font-secondary);
@@ -79,11 +79,11 @@
 .photos-profile{
   display: grid;
   grid-template-columns: repeat(4, 1fr); 
-  grid-template-rows: repeat(2, 250px); 
-  gap: 10px; 
+  grid-template-rows: repeat(2, 15.625rem); 
+  gap: 0.625rem; 
   justify-content: center;
-  max-width: 800px; 
-  margin: 20px auto; 
+  max-width: 50rem; 
+  margin: 1.25rem auto; 
 
 }
 
@@ -91,6 +91,6 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 
 }
