@@ -8,64 +8,72 @@
 }
 
 .post-profile-information {
-  
   height: 30rem;
   width: 37rem;
-  border-radius: 0.625rem;
-  box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.1);
+  border-radius: 1.25rem; 
+  box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.1); 
   background-color: #fff;
-  padding: 30px;
-  border-radius: 20px;
+  padding: 1.875rem; 
   background: #f7f7f7;
+}
+
+.post-header-profile-information h2 {
+  color: inherit;
+
+  font-family: var(--font-secondary);
+  font-size: 1.5rem;
+  font-weight: 500;
+
+  text-decoration: none;
 }
 
 .post-header-information {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem; 
 }
 
 .post-header-profile-information {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 12px;
+  gap: 0.75rem; 
   justify-content: flex-start;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem; 
 }
 
 .post-header-img-profile-information {
-  width: 60px;
-  height: 60px;
+  width: 3.75rem;  
+  height: 3.75rem;
   border-radius: 50%;
   object-fit: cover;
 }
 
 .profile-name {
-  font-size: 18px;
+  font-size: 1.125rem; 
   font-weight: 500;
   color: #2c2c2c;
 }
 
-/* Formulário */
+
 .form_information {
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 
 .label_information {
-  font-size: 14px;
-  margin: 12px 0 5px;
+  font-size: 0.875rem; 
+  margin: 0.75rem 0 0.3125rem; 
   display: block;
   color: #444;
 }
 
 .input_information {
   width: 100%;
-  padding: 14px;
+  padding: 0.875rem; 
   background-color: #f2f2f2;
   border: none;
-  border-radius: 12px;
-  font-size: 14px;
-  margin-bottom: 15px;
+  border-radius: 0.75rem; 
+  font-size: 0.875rem; 
+  margin-bottom: 0.9375rem; 
   color: #333;
 }
 
@@ -76,21 +84,21 @@
 .buttons_information {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 1.25rem; 
 }
 
 .btn-v, .btn-s {
-  padding: 12px 32px;
-  font-size: 14px;
+  padding: 0.75rem 2rem; 
+  font-size: 0.875rem; 
   border-radius: 999px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
-/* Botão Voltar (contorno) */
+
 .btn-v {
   background: transparent;
-  border: 2px solid #c9a57a;
+  border: 0.125rem solid #c9a57a; 
   color: #6b4b2b;
 }
 
@@ -98,7 +106,6 @@
   background-color: #f3ece6;
 }
 
-/* Botão Salvar (preenchido) */
 .btn-s {
   background-color: #c9a57a;
   color: white;
