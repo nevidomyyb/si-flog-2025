@@ -1,0 +1,193 @@
+/* DETAIL POST STYLE */
+.detail-post-area {
+    min-height: calc(100vh - 4rem);
+    padding: 1.25rem;
+    padding-top: 6rem;
+
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    overflow-y: auto;
+}
+
+.detail-post {
+    margin: 0 auto;
+    padding: 1.5rem;
+    width: auto;
+    max-width: 900px;
+    border-radius: 8px;
+    background-color: var(--color-tertiary);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* HEADER POST STYLE */
+.detail-post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.detail-post-header img {
+    cursor: pointer;
+}
+
+.detail-post-profile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.detail-post-profile img {
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 50%;
+}
+
+.detail-post-profile p {
+    font-family: var(--font-secondary, sans-serif);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.post-detail-content {
+    display: flex;
+    gap: 1rem;
+}
+
+/* DESCRIPTION POST STYLE */
+.post-detail-content-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-detail-description {
+    margin-bottom: 1rem;
+}
+
+.post-detail-description h4 {
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: var(--font-primary, sans-serif);
+    font-size: 1.25rem;
+}
+
+.post-detail-description p {
+    font-family: var(--font-caption, sans-serif);
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.division-description-comment {
+    margin-bottom: 0.625rem;
+}
+
+/* COMMENT STYLE */
+.comments-area {
+    display: flex;
+    flex-direction: column;
+    max-height: 21rem;
+    position: relative;
+}
+
+.comments-list {
+    overflow-y: auto;
+    padding-bottom: 4rem;
+}
+
+.comment {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+.comment img {
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 50%;
+}
+
+.comment-owner {
+    font-family: var(--font-secondary, sans-serif);
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #140000;
+}
+
+.comment-text p {
+    font-family: var(--font-caption, sans-serif);
+    font-size: 0.9rem;
+}
+
+.comment-form {
+    margin-top: auto;
+    padding: 0.5rem 0;
+}
+
+.comment-input {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.comment-input input {
+    padding: 0.5rem;
+    background-color: var(--color-secondary, #2e3a3a);
+    width: 100%;
+    height: 2.5rem;
+    color: #FFFFFF;
+    font-family: var(--font-secondary, sans-serif);
+    font-size: 0.8rem;
+    border-radius: 4px;
+    border: none;
+}
+
+.comment-input input::placeholder {
+    color: #F4F4F4;
+    font-family: var(--font-secondary, sans-serif);
+    font-size: 0.8rem;
+}
+
+.comment-input input:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.comment-input button {
+    width: auto;
+    padding: 0.5rem 1rem;
+    color: #FFFFFF;
+    font-family: var(--font-secondary, sans-serif);
+    font-size: 0.8rem;
+    font-weight: 600;
+    background-color: var(--color-primary, #2e3a3a);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.comment-input button:hover {
+    background-color: #1d241f;
+}
+
+/* SCROLLBAR STYLE */
+.comments-list::-webkit-scrollbar {
+    width: 8px;
+}
+
+.comments-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.comments-list::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.comments-list::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

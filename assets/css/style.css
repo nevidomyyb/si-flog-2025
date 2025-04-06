@@ -10,6 +10,7 @@
 @import url(information.css);
 @import url(editar.css);
 @import url(cadastro_formulario.css);
+@import url(post_detalhado.css);
 
 :root {
     --color-primary: #2B3A2E;
