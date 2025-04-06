@@ -184,10 +184,10 @@
 }
 
 .comments-list::-webkit-scrollbar-thumb {
-    background: #888;
+    background: #888888;
     border-radius: 4px;
 }
 
 .comments-list::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: #555555;
 }
