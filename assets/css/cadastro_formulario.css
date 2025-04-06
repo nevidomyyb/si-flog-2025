@@ -1,26 +1,36 @@
 .register-post-area {
-    flex: 1;
-    padding: 20px;
+    min-height: calc(100vh - 4rem);
+    padding: 1.25rem;
+    padding-top: 6rem;
+
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    overflow-y: auto;
 }
 
 .register-post-container {
-    background: #f7f7f7;
-    padding: 20px; 
-    border-radius: 10px;
-    width: 500px;
-    box-sizing: border-box;
-    border: 1px solid #ddd;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 2.125rem;
+    border-radius: 5px;
+    width: auto;
+
     display: flex;
     flex-direction: column;
+    gap: 1.25rem;
+    
+    background-color: var(--color-tertiary, #f8f8f8);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .register-post-header {
+    padding: 0.625rem 1.5rem;
+
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+
+    border-radius: 10px;
+    background-color: var(--color-quaternary);
 }
 
 .register-post-header img {
@@ -30,16 +40,20 @@
     margin-right: 10px;
 }
 
-.register-post-header span {
-    font-weight: bold;
-    font-size: 16px;
-    font-family: sans-serif;
+.register-post-owner {
+    font-family: var(--font-secondary); 
+    font-weight: 500; 
+    font-size: 1rem; 
+}
+
+.date {
+    font-family: var(--font-primary);
+    font-size: 0.95rem;
+    color: var(--color-primary);
 }
 
 .register-post-header .date {
     margin-left: auto;
-    font-size: 14px;
-    font-family: sans-serif;
 }
 
 .upload-box {
@@ -48,42 +62,106 @@
     border: 1px dashed #ccc;
     border-radius: 5px;
     margin-bottom: 10px;
-    background-color: #f0f0f0;
-}
-
-.upload-btn {
-    background: #c49b75;
-    border: none;
-    padding: 8px 12px;
-    cursor: pointer;
-    border-radius: 5px;
-    color: white;
-}
-
-.register-post-title,
-.register-post-caption {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-    box-sizing: border-box;
-    background-color: white;
-    font-family: sans-serif;
-}
-
-.register-post-button {
-    background: #c49b75;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-    border-radius: 20px;
-    color: white;
-    align-self: flex-end; 
-    margin-top: 10px; 
+    background-color: var(--color-quaternary);
 }
 
 .register-post-container-figure {
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.register-post-container-figure img {
+    width: 6rem;
+    height: 4.8rem;
+}
+
+.upload-btn {
+    width: 25%;
+    padding-top: 0.2rem;
+    padding-bottom: 0.4rem;
+
+    
+    color: #FFFFFF;
+    font-family: var(--font-primary);
+    font-weight: 700;
+    
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color-highlight);
+    cursor: pointer;
+}
+
+.register-post-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+
+    font-family: var(--font-secondary);
+    font-size: 0.9rem;
+}
+
+.register-post-title {
+    width: 100%;
+    height: 2.5rem;
+    
+    padding: 0.75rem 1.125rem;
+    
+    font-family: inherit;
+    font-size: inherit;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: var(--color-quaternary);
+}
+
+.register-post-title:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.register-post-caption {
+    padding: 1.125rem;
+
+    width: 52rem;
+    height: 12.5rem;
+
+    font-family: inherit;
+    font-size: inherit;
+
+    border: none;
+    resize: none;
+    background-color: var(--color-quaternary);
+}
+
+.register-post-caption:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.register-post-button {
+    width: 15%;
+    padding-bottom: 0.35rem;
+
+    align-self: flex-end;
+    text-align: center;
+
+    color: #FFFFFF;
+    font-family: var(--font-primary);
+    font-size: 1.1rem;
+    font-weight: 600;
+    
+    border-radius: 20px;
+    border: none;
+    background-color: var(--color-highlight);
+    cursor: pointer;
+}
+
+.register-post-button:hover {
+    background-color: var(--color-hover-highlight);
+}
+
+/* .register-post-container-figure {
     position: relative;
 }
 
@@ -102,4 +180,4 @@
     height: 15%;
     margin: 0;
     padding: 0;
-}
+} */
