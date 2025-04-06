@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KnowMe</title>
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
+
 <body>
-     <!-- HEADER -->
-     <header class="header">
+    <!-- HEADER -->
+    <header class="header">
         <div class="title-content">
             <h1>know.me</h1>
         </div>
@@ -81,25 +83,42 @@
 
     <!-- EDIT FORM -->
     <main class="edit-area">
+        
         <div class="edit-container">
-            <div class="close-button">×</div> 
+            
+            <div class="close-button">
+                <img src="/assets/img/icons/close-icon.svg" alt="">
+            </div>
+
             <div class="edit-container-header">
                 <img src="/assets/img/dono.jpeg" alt="imagem usuario">
-                <span>Vitoria Xavier</span>
+                <span class="edit-post-owner">Vitoria Xavier</span>
                 <span class="date">25/01/2025</span>
             </div>
+
             <div class="upload-box">
-                <i class="fas fa-images"></i>
+
                 <figure class="edit-container-figure">
-                    <img src="/assets/img/image.svg" alt="">
+                    <img src="/assets/img/icons/media-icon.svg" alt="">
                 </figure>
-                <p>Arraste as fotos e vídeos aqui</p>
+
+                <p>Arraste as fotos e vídeos aqui <br> ou</p>
+
                 <button class="upload-btn">Selecione do computador</button>
             </div>
-            <input type="text" class="edit-container-title" value="My dog">
-            <textarea class="edit-container-capiton" placeholder="My dog loves sachet"></textarea>
-            <button class="edit-container-button">Salvar</button>
+
+            <form class="edit-form" action="">
+
+                <input class="edit-container-title" type="text" value="My dog">
+
+                <textarea class="edit-container-capiton" >My dog loves sachet</textarea>
+                <button class="edit-container-button">Salvar</button>
+            </form>
+
         </div>
+
     </main>
+
 </body>
+
 </html>

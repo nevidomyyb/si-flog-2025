@@ -16,7 +16,9 @@
     --color-primary: #2B3A2E;
     --color-secondary: #375240;
     --color-tertiary: #F8F8F8;
+    --color-quaternary: #f2f2f2;
     --color-highlight: #C6A27C;
+    --color-hover-highlight: #9C7850;
     --color-text-sidebar: #FAF0E6;
 
     --font-primary: "Darker Grotesque", sans-serif;

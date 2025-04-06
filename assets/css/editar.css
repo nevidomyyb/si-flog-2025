@@ -1,36 +1,41 @@
 .edit-area {
-    flex: 1;
-    padding: 20px;
+    min-height: calc(100vh - 4rem);
+    padding: 1.25rem;
+    padding-top: 6rem;
+
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    overflow-y: auto;
 }
 
 .edit-container {
-    background: #f7f7f7;
-    padding: 20px;
-    border-radius: 10px;
-    width: 500px;
-    box-sizing: border-box;
-    border: 1px solid #ddd;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 2.125rem;
+    border-radius: 5px;
+    width: auto;
+
     display: flex;
     flex-direction: column;
-    position: relative; 
+    gap: 1.25rem;
+    
+    background-color: var(--color-tertiary, #f8f8f8);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .close-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 20px;
-    color: #888;
+    align-self: flex-end;
     cursor: pointer;
 }
 
 .edit-container-header {
+    padding: 0.625rem 1.5rem;
+
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+
+    border-radius: 10px;
+    background-color: var(--color-quaternary);
 }
 
 
@@ -41,16 +46,20 @@
     margin-right: 10px;
 }
 
-.edit-container-header span {
-    font-weight: bold; 
-    font-size: 16px; 
-    font-family: sans-serif; 
+.date {
+    font-family: var(--font-primary);
+    font-size: 0.95rem;
+    color: var(--color-primary);
+}
+
+.edit-post-owner {
+    font-family: var(--font-secondary); 
+    font-weight: 500; 
+    font-size: 1rem; 
 }
 
 .edit-container-header .date {
     margin-left: auto; 
-    font-size: 14px; 
-    font-family: sans-serif; 
 }
 
 .upload-box {
@@ -62,40 +71,115 @@
     background-color: #f0f0f0;
 }
 
-.upload-btn {
-    background: #c49b75;
-    border: none;
-    padding: 8px 12px;
-    cursor: pointer;
-    border-radius: 5px;
-    color: white;
+.edit-container-figure {
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
 }
 
-.edit-container-titlee,
-.edit-container-capiton {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
+.edit-container-figure img {
+    width: 6rem;
+    height: 4.8rem;
+}
+
+.upload-box p {
+    margin-bottom: 0.625rem;
+
+    color: #4B4D50;
+    font-family: var(--font-primary);
+    font-size: 1rem;
+}
+
+.upload-btn {
+    width: 25%;
+    padding: 0.125rem 1.6rem;
+    margin-bottom: 1.5rem;
+    
+    color: #FFFFFF;
+    font-family: var(--font-primary);
+    font-weight: 700;
+    
+    border: none;
     border-radius: 5px;
-    border: 1px solid #ddd;
-    box-sizing: border-box;
-    background-color: white;
-    font-family: sans-serif; 
+    background-color: var(--color-highlight);
+    cursor: pointer;
+}
+
+.upload-btn:hover {
+    background-color: var(--color-hover-highlight);
+}
+
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+
+    font-family: var(--font-secondary);
+    font-size: 0.9rem;
+}
+
+.edit-container-title {
+    width: 100%;
+    height: 2.5rem;
+    
+    padding: 0.75rem 1.125rem;
+    
+    font-family: inherit;
+    font-size: inherit;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: var(--color-quaternary);
+}
+
+.edit-container-title:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.edit-container-capiton {
+    padding: 1.125rem;
+
+    width: 52rem;
+    height: 12.5rem;
+
+    font-family: inherit;
+    font-size: inherit;
+
+    border: none;
+    resize: none;
+    background-color: var(--color-quaternary);
+}
+
+.edit-container-capiton:focus {
+    box-shadow: none;
+    outline: none;
 }
 
 .edit-container-button {
-    background: #c49b75;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-    border-radius: 20px;
-    color: white;
+    width: 15%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.7rem;
+
     align-self: flex-end;
-    font-family: sans-serif; 
-    margin-top: auto; 
+    text-align: center;
+
+    color: #FFFFFF;
+    font-family: var(--font-primary);
+    font-size: 1.1rem;
+    font-weight: 600;
+    
+    border-radius: 20px;
+    border: none;
+    background-color: var(--color-highlight);
+    cursor: pointer;
 }
 
-.edit-container-figure {
+.edit-container-button:hover {
+    background-color: var(--color-hover-highlight);
+}
+
+/* .edit-container-figure {
     position: relative;
 }
 
@@ -106,11 +190,11 @@
     top: 0;
     left: 0;
     position: absolute;
-}
+} */
 
-.edit-container-figure img {
+/* .edit-container-figure img {
     width: 15%;
     height: 15%;
     margin: 0;
     padding: 0;
-}
+} */
