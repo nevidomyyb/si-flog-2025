@@ -7,6 +7,9 @@
 @import url(./inicio.css);
 @import url(./tabelas.css);
 @import url(perfil.css);
+@import url(information.css);
+@import url(editar.css);
+@import url(cadastro_formulario.css);
 
 :root {
     --color-primary: #2B3A2E;
