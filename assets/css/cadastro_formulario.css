@@ -1,11 +1,11 @@
-.feed {
+.register-post-area {
     flex: 1;
     padding: 20px;
     display: flex;
     justify-content: center;
 }
 
-.post {
+.register-post-container {
     background: #f7f7f7;
     padding: 20px; 
     border-radius: 10px;
@@ -17,26 +17,26 @@
     flex-direction: column;
 }
 
-.post-header {
+.register-post-header {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
 }
 
-.post-header img {
+.register-post-header img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     margin-right: 10px;
 }
 
-.post-header span {
+.register-post-header span {
     font-weight: bold;
     font-size: 16px;
     font-family: sans-serif;
 }
 
-.post-header .date {
+.register-post-header .date {
     margin-left: auto;
     font-size: 14px;
     font-family: sans-serif;
@@ -60,8 +60,8 @@
     color: white;
 }
 
-.post-title,
-.post-caption {
+.register-post-title,
+.register-post-caption {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
@@ -72,7 +72,7 @@
     font-family: sans-serif;
 }
 
-.post-btn {
+.register-post-button {
     background: #c49b75;
     border: none;
     padding: 10px 15px;
@@ -83,11 +83,12 @@
     margin-top: 10px; 
 }
 
-figure {
+.register-post-container-figure {
     position: relative;
 }
-figure:before,
-figure:after {
+
+.register-post-container-figure:before,
+.register-post-container-figure:after {
     content: '';
     height: 100%;
     width: 100%;
@@ -95,7 +96,8 @@ figure:after {
     left: 0;
     position: absolute;
 }
-img {
+
+.register-post-container-figure img {
     width: 15%;
     height: 15%;
     margin: 0;

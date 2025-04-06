@@ -1,11 +1,11 @@
-.feed {
+.edit-area {
     flex: 1;
     padding: 20px;
     display: flex;
     justify-content: center;
 }
 
-.post {
+.edit-container {
     background: #f7f7f7;
     padding: 20px;
     border-radius: 10px;
@@ -27,27 +27,27 @@
     cursor: pointer;
 }
 
-.post-header {
+.edit-container-header {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
 }
 
 
-.post-header img {
+.edit-container-header img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     margin-right: 10px;
 }
 
-.post-header span {
+.edit-container-header span {
     font-weight: bold; 
     font-size: 16px; 
     font-family: sans-serif; 
 }
 
-.post-header .date {
+.edit-container-header .date {
     margin-left: auto; 
     font-size: 14px; 
     font-family: sans-serif; 
@@ -71,8 +71,8 @@
     color: white;
 }
 
-.post-title,
-.post-caption {
+.edit-container-titlee,
+.edit-container-capiton {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
@@ -83,7 +83,7 @@
     font-family: sans-serif; 
 }
 
-.post-btn {
+.edit-container-button {
     background: #c49b75;
     border: none;
     padding: 10px 15px;
@@ -95,21 +95,22 @@
     margin-top: auto; 
 }
 
-figure {
+.edit-container-figure {
     position: relative;
-  }
-  figure:before,
-  figure:after {
+}
+
+.edit-container-figure:before, .edit-container-figure:after {
     content: '';
     height: 100%;
     width: 100%;
     top: 0;
     left: 0;
     position: absolute;
-  }
-  img {
+}
+
+.edit-container-figure img {
     width: 15%;
     height: 15%;
     margin: 0;
     padding: 0;
-  }
+}
