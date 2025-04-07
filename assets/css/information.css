@@ -99,18 +99,24 @@
   background: transparent;
   border: 0.125rem solid #c9a57a; 
   color: #6b4b2b;
+
+  text-decoration: none;
 }
 
 .btn-v:hover {
-  background-color: #f3ece6;
+  color: #FFFFFF;
+  background-color: var(--color-hover-highlight);
+  border: none;
 }
 
 .btn-s {
   background-color: #c9a57a;
   color: white;
   border: none;
+
+  text-decoration: none;
 }
 
 .btn-s:hover {
-  background-color: #b08b61;
+  background-color: var(--color-hover-highlight);
 }

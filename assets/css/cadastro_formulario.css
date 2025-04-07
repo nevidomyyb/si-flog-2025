@@ -155,6 +155,7 @@
     border: none;
     background-color: var(--color-highlight);
     cursor: pointer;
+    text-decoration: none;
 }
 
 .register-post-button:hover {

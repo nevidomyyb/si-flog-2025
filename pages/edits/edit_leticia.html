@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Know.me</title>
+    <title>KnowMe</title>
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
@@ -16,7 +16,7 @@
             <h1>know.me</h1>
         </div>
 
-        <h3 class="page-title">Início</h3>
+        <h3 class="page-title">Editar Post</h3>
 
         <div class="actions-header">
             <div class="searchbar">
@@ -79,46 +79,33 @@
         </aside>
     </div>
 
+    <!-- EDIT FORM -->
+    <main class="edit-area">
 
-    <!-- FEED -->
-    <main class="feed">
+        <div class="edit-container">
 
-        <div class="post">
-
-            <div class="post-header">
-                <div class="post-header-profile">
-                    <img class="post-header-img-profile" src="/assets/img/carol.jpg" alt="Avatar">
-                    <a href="">Carol</a>
-                </div>
-                <a class="edit-btn" href="/pages/edits/edit_leticia.html"><img src="/assets/img/pen-to-square-solid.svg" alt=""></a>
+            <div class="close-button">
+                <a href="/pages/inicio.html"><img src="/assets/img/icons/close-icon.svg" alt=""></a>
             </div>
 
-            <img class="post-image" src="/assets/img/dog.png" alt="Imagem do post">
-            <p class="caption">Meu novo melhor amigo: um filhote de Golden Retriever!</p>
-
-            <div class="actions">
-                <button><img src="/assets/img/like_icon.svg" alt=""></button>
-                <a href="/pages/commets/comments_carol.html"><img src="/assets/img/comment_icon.svg" alt=""></a>
+            <div class="edit-container-header">
+                <img src="/assets/img/carol.jpg" alt="imagem usuario">
+                <span class="edit-post-owner">Carol</span>
+                <span class="date">25/01/2025</span>
             </div>
 
-        </div>
-
-        <div class="post">
-
-            <div class="post-header">
-                <div class="post-header-profile">
-                    <img class="post-header-img-profile" src="/assets/img/Dani.jpg" alt="Avatar">
-                    <a href="">Daniely</a>
-                </div>
+            <div class="upload-box">
+                <img src="/assets/img/dog.png" alt="">
             </div>
 
-            <img class="post-image" src="/assets/img/blush.jpeg" alt="Imagem do post">
-            <p class="caption">Eu amo blush</p>
+            <form class="edit-form" action="">
 
-            <div class="actions">
-                <button><img src="/assets/img/like_icon.svg" alt=""></button>
-                <a href="/pages/commets/comments_dani.html"><img src="/assets/img/comment_icon.svg" alt=""></a>
-            </div>
+                <input class="edit-container-title" type="text" value="Meu novo melhor amigo: um filhote de Golden Retriever!">
+
+                <textarea
+                    class="edit-container-capiton">Conheçam o meu novo companheiro, o Max! Ele é um filhote de Golden Retriever e já conquistou meu coração. Esses olhinhos brilhantes e o jeitinho brincalhão dele são a coisa mais fofa do mundo! Max adora correr pelo quintal, brincar com a bolinha e se jogar no meu colo pra receber carinho. Golden Retrievers são tão amorosos e inteligentes, né? Alguém mais tem um filhote que é pura alegria em casa?</textarea>
+                    <a class="edit-container-button" href="/pages/inicio.html">Salvar</a>
+            </form>
 
         </div>
 

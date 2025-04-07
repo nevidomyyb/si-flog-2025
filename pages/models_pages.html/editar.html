@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Know.me</title>
+    <title>KnowMe</title>
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
@@ -79,46 +79,39 @@
         </aside>
     </div>
 
+    <!-- EDIT FORM -->
+    <main class="edit-area">
 
-    <!-- FEED -->
-    <main class="feed">
+        <div class="edit-container">
 
-        <div class="post">
-
-            <div class="post-header">
-                <div class="post-header-profile">
-                    <img class="post-header-img-profile" src="/assets/img/carol.jpg" alt="Avatar">
-                    <a href="">Carol</a>
-                </div>
-                <a class="edit-btn" href="/pages/edits/edit_leticia.html"><img src="/assets/img/pen-to-square-solid.svg" alt=""></a>
+            <div class="close-button">
+                <img src="/assets/img/icons/close-icon.svg" alt="">
             </div>
 
-            <img class="post-image" src="/assets/img/dog.png" alt="Imagem do post">
-            <p class="caption">Meu novo melhor amigo: um filhote de Golden Retriever!</p>
-
-            <div class="actions">
-                <button><img src="/assets/img/like_icon.svg" alt=""></button>
-                <a href="/pages/commets/comments_carol.html"><img src="/assets/img/comment_icon.svg" alt=""></a>
+            <div class="edit-container-header">
+                <img src="/assets/img/carol.jpg" alt="imagem usuario">
+                <span class="edit-post-owner">Carol</span>
+                <span class="date">25/01/2025</span>
             </div>
 
-        </div>
+            <div class="upload-box">
 
-        <div class="post">
+                <figure class="edit-container-figure">
+                    <img src="/assets/img/icons/media-icon.svg" alt="">
+                </figure>
 
-            <div class="post-header">
-                <div class="post-header-profile">
-                    <img class="post-header-img-profile" src="/assets/img/Dani.jpg" alt="Avatar">
-                    <a href="">Daniely</a>
-                </div>
+                <p>Arraste as fotos e vídeos aqui <br> ou</p>
+
+                <button class="upload-btn">Selecione do computador</button>
             </div>
 
-            <img class="post-image" src="/assets/img/blush.jpeg" alt="Imagem do post">
-            <p class="caption">Eu amo blush</p>
+            <form class="edit-form" action="">
 
-            <div class="actions">
-                <button><img src="/assets/img/like_icon.svg" alt=""></button>
-                <a href="/pages/commets/comments_dani.html"><img src="/assets/img/comment_icon.svg" alt=""></a>
-            </div>
+                <input class="edit-container-title" type="text" value="My dog">
+
+                <textarea class="edit-container-capiton">My dog loves sachet</textarea>
+                <button class="edit-container-button">Salvar</button>
+            </form>
 
         </div>
 

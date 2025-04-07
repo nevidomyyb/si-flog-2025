@@ -134,13 +134,21 @@
     font-size: 0.8rem;
 }
 
+.login-register-input:focus {
+    box-shadow: none;
+    outline: none;
+}
+
 
 .login-register-button {
+    display: flex;
+    justify-content: center;
+
     padding-top: 0.25rem;
     padding-bottom: 0.5rem;
     width: 62%;
 
-    color: inherit;
+    color: #FFFFFF;
     font-size: 1.1rem;
     font-family: var(--font-primary);
     font-weight: 600;
@@ -148,11 +156,11 @@
     border: none;
     border-radius: 5px;
 
+    text-decoration: none;
     background-color: var(--color-highlight);
 
     cursor: pointer;
 }
-
 
 .login-register-hint {
     text-align: center;
